@@ -1,0 +1,248 @@
+/*#statereps {
+  background: url("../images/alaska-flag-large.jpg");
+  background-color: rgba(255,255,255,0.9);
+  background-blend-mode: lighten;
+  background-size: cover;
+}*/
+//<img ng-src="../images/{{repinfofed.state}}.jpg" />
+#fedreps {
+  background: url("../images/American-Iphone-Flag-HD-Wallpapers_V2.jpg");
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: cover;
+}
+.AK { background-image: url('../images/stateFlags/AK.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.AL { background-image: url('../images/stateFlags/AL.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.AR { background-image: url('../images/stateFlags/AR.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.AZ { background-image: url('../images/stateFlags/AZ.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.CA { background-image: url('../images/stateFlags/CA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.CO { background-image: url('../images/stateFlags/CO.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.CT { background-image: url('../images/stateFlags/CT.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.DC { background-image: url('../images/stateFlags/DC.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.DE { background-image: url('../images/stateFlags/DE.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.FL { background-image: url('../images/stateFlags/FL.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.GA { background-image: url('../images/stateFlags/GA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.HI { background-image: url('../images/stateFlags/HI.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.IA { background-image: url('../images/stateFlags/IA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.ID { background-image: url('../images/stateFlags/ID.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.IL { background-image: url('../images/stateFlags/IL.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.IN { background-image: url('../images/stateFlags/IN.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.KS { background-image: url('../images/stateFlags/KS.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.KY { background-image: url('../images/stateFlags/KY.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.LA { background-image: url('../images/stateFlags/LA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.MA { background-image: url('../images/stateFlags/MA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.MD { background-image: url('../images/stateFlags/MD.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.ME { background-image: url('../images/stateFlags/ME.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.MI { background-image: url('../images/stateFlags/MI.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NC { background-image: url('../images/stateFlags/NC.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.ND { background-image: url('../images/stateFlags/ND.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NE { background-image: url('../images/stateFlags/NE.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NH { background-image: url('../images/stateFlags/NH.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NJ { background-image: url('../images/stateFlags/NJ.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NM { background-image: url('../images/stateFlags/NM.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NV { background-image: url('../images/stateFlags/NV.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.NY { background-image: url('../images/stateFlags/NY.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.OH { background-image: url('../images/stateFlags/OH.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.OK { background-image: url('../images/stateFlags/OK.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.OR { background-image: url('../images/stateFlags/OR.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.PA { background-image: url('../images/stateFlags/PA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.RI { background-image: url('../images/stateFlags/RI.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.SC { background-image: url('../images/stateFlags/SC.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.SD { background-image: url('../images/stateFlags/SD.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.TN { background-image: url('../images/stateFlags/TN.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.TX { background-image: url('../images/stateFlags/TX.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.UT { background-image: url('../images/stateFlags/UT.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.VA { background-image: url('../images/stateFlags/VA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.VT { background-image: url('../images/stateFlags/VT.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.WA { background-image: url('../images/stateFlags/WA.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.WI { background-image: url('../images/stateFlags/WI.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.WV { background-image: url('../images/stateFlags/WV.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}
+.WY { background-image: url('../images/stateFlags/WY.png');
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: 100%;
+}

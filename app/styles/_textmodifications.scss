@@ -1,0 +1,110 @@
+strong {
+display: inline !important;
+}
+.row{
+  //padding: 4rem;
+}
+#statereps {
+  margin: 0rem 0rem 5rem 0rem;
+}
+#fedreps {
+  margin: 0rem 0rem 5rem 0rem;
+}
+#form {
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+#headlinetext {
+  //line-height: 20%;
+}
+#header {
+  //border: 1px solid black;
+  //background: rgba(99, 99, 253, 0.3);
+  position: static;
+
+  ///////////////////////////////////////font-size: 5rem;
+  padding: 12rem 3rem 2rem 3rem;
+  margin: 0rem 0rem 0rem 0rem;
+  line-height: 4rem;
+}
+//margin: Top Right Bottom Left
+.headlineimage {
+  margin: 0rem 3rem 0rem 0rem;
+  float: left;
+  display: block;
+//  border: 1px solid black;
+}
+
+
+
+.disclaimerText {
+  font-size: 1rem;
+}
+.bigline {
+  line-height: 200%;
+}
+
+
+.headertext {
+  margin: 1rem;
+}
+
+.footer {
+  color: black;
+  background-color: rgba(163, 163, 199, 0.68);
+}
+.footer p {
+  color: black;
+}
+
+.form {
+  //padding: 1rem 4rem 1rem 4rem;
+  //text-shadow: -2px -1px 12px rgba(85, 78, 78, 0.88);
+  text-shadow: 4px 2px 4px rgba(49, 37, 2, 0.74),
+  -2px -2px 25px rgba(252, 237, 191, 0.74),
+  -2px -1px 25px #effb9a, -2px 0px 25px rgba(252, 237, 191, 0.74),
+  -2px 1px 25px #effb9a, -2px 2px 25px rgba(252, 237, 191, 0.74),
+  -1px -2px 25px #effb9a, -1px -1px 25px rgba(252, 237, 191, 0.74);
+
+}
+
+.map {
+  height: 26rem;
+  text-align: center;
+  -webkit-filter: drop-shadow(0 3px 2px rgba(69, 52, 3, 0.74));
+  background-image: url('../images/usa-map_V2.png');
+  //background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center center no-repeat;
+  background-size: 100%;
+}
+.findReps {
+  //background-color: rgba(163, 163, 199, 0.2);
+}
+
+.reps {
+  background-color: rgba(255,255,255,0.4);
+  padding-top: 1rem;
+}
+
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
