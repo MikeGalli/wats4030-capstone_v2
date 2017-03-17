@@ -1,2 +1,12 @@
-# wats4030-capstone_v2
-_v2
+# wats4030-capstone-v2
+
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.16.0.
+
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
