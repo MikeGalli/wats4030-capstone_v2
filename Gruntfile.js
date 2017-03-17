@@ -39,7 +39,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:your_github_user/your_webapp.git',
+          remote: 'git@github.com:MikeGalli/wats4030-capstone_v2.git',
           branch: 'gh-pages'
         }
       }
