@@ -10,37 +10,25 @@
 angular.module('wats4030CapstoneV2App')
   .controller('MainCtrl', function($scope, current, repsearchfed, repsearch) {
     $scope.current = current.query();
-//// Refresh data in the div AND make the div visiable /////////////////
     $scope.refreshCurrent = function(location) {
-//// Make the div visiable /////////////////
-      $scope.IsVisible = $scope.IsVisible ? false : true;
       $scope.current = current.query({
         location: location
-
       });
-//// Make the div visiable /////////////////
 
+      //// Start Make the div visiable /////////////////
+      $scope.IsVisible = $scope.IsVisible ? false : true;
+      //// End Make the div visiable /////////////////
 
-//// Go to the div visiable /////////////////
-$scope.current.$promise.then(function(){
+      //// Start repsearch /////////////////
+      $scope.current.$promise.then(function(data) {
+        $scope.repsearch = repsearch.query({
+          lat: data.results[0].geometry.location.lat, //This is the Google search
+          lng: data.results[0].geometry.location.lng
+        });
+      });
+      //// End repsearch /////////////////
 
-$scope.window = function scrollWin() {
-
-    window.scrollTo(0, 500);
-    //$scope.refreshCurrent.$setUntouched();
-    //$scope.refreshCurrent.$setPristine();
-    //$scope.refreshCurrent = {};
-    //$scope.repsearch = {};
-    //$scope.repsearchfed = {};
-
-    //$scope.current = current.query({
-      //location: location
-    //});
-
-};
-});
-//// Go to the div visiable /////////////////
-
+      //// Start repsearchfed /////////////////
       $scope.current.$promise.then(function(data) {
         $scope.repsearchfed = repsearchfed.query({
           lat: data.results[0].geometry.location.lat, //This is the Google search
@@ -49,15 +37,15 @@ $scope.window = function scrollWin() {
           $scope.repdata = repdata.data;
         });
       });
+      //// End repsearchfed /////////////////
 
-
-      $scope.current.$promise.then(function(data) {
-        $scope.repsearch = repsearch.query({
-          lat: data.results[0].geometry.location.lat, //This is the Google search
-          lng: data.results[0].geometry.location.lng
-        });
+      //// Start Scroll to div /////////////////
+      $scope.current.$promise.then(function scrollWin() {
+        window.scrollTo(0, 1000);
+        $scope.refreshCurrent.$setUntouched();
+        $scope.refreshCurrent.$setPristine();
       });
+      //// End Scroll to div /////////////////
 
     };
-
   });
