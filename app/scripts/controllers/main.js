@@ -24,18 +24,18 @@ angular.module('wats4030CapstoneV2App')
 //// Go to the div visiable /////////////////
 $scope.current.$promise.then(function(){
 
-$scope.refreshCurrent = function scrollWin() {
+$scope.window = function scrollWin() {
 
     window.scrollTo(0, 500);
-    $scope.refreshCurrent.$setUntouched();
-    $scope.refreshCurrent.$setPristine();
+    //$scope.refreshCurrent.$setUntouched();
+    //$scope.refreshCurrent.$setPristine();
     //$scope.refreshCurrent = {};
-    $scope.repsearch = {};
-    $scope.repsearchfed = {};
+    //$scope.repsearch = {};
+    //$scope.repsearchfed = {};
 
-    $scope.current = current.query({
-      location: location
-    });
+    //$scope.current = current.query({
+      //location: location
+    //});
 
 };
 });
