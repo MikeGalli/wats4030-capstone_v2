@@ -41,7 +41,7 @@ angular.module('wats4030CapstoneV2App')
 
       //// Start Scroll to div /////////////////
       $scope.current.$promise.then(function scrollWin() {
-        window.scrollTo(0, 1000);
+        window.scrollTo(0, 500);
         $scope.refreshCurrent.$setUntouched();
         $scope.refreshCurrent.$setPristine();
       });
