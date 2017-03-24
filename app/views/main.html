@@ -1,4 +1,3 @@
-
 <body ng-app="wats4030CapstoneV2App">
 
 
@@ -136,14 +135,15 @@ RINSE AND REPEATE
 
 
   <div ng-show="IsVisible" class="container-fluid {{xrepinfofed.state}}" id="statereps" ng-init="repsearchfed" ng-repeat="repinfofed in repdata.results | limitTo:1">
-<div>
-    <div class="row is-flex stateHead">
+    <div>
+      <div class="row is-flex stateHead">
 
-        <div class="col-sm-6 col-md-4"><h1>Your State Reps<br>And Your State Flag</h1>
+        <div class="col-sm-6 col-md-4">
+          <h1>Your State Reps<br>And Your State Flag</h1>
         </div>
         <div class="col-sm-6 col-md-4 img-responsive {{repinfofed.state}}">
         </div>
-</div>
+      </div>
     </div>
 
     <div class="row is-flex" ng-init="repsearch">
@@ -190,7 +190,7 @@ Upper & Lower are meaningless to the public so we'll translate them here.-->
       <div class="call col-sm-12 col-md-6">You can call your reps by simply clicking on the phone numbers!
       </div>
     </div>
-</div>
+  </div>
   <!--END Rep Search/////////////////////////////////////////////////////////////////////-->
 
 
